@@ -52,7 +52,7 @@ mkdir gcc-build
 
 cd gcc-build
 
-../gcc-10.2.0/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --disable-libssp --enable-languages=c --without-headers
+../gcc-10.2.0/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --disable-libssp --enable-languages=c++ --without-headers
 
 
 sudo make all-gcc
